@@ -1,0 +1,549 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Leon Latsch</title>
+        <meta
+            name="description"
+            content="OpenSource Software and Hardware with Passion."
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            href="https://github.com/leonlatsch.png"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&family=Space+Mono:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./styles.css" />
+    </head>
+    <body data-page="home">
+        <div class="noise" aria-hidden="true"></div>
+        <div class="orb orb-a" aria-hidden="true"></div>
+        <div class="orb orb-b" aria-hidden="true"></div>
+
+        <header class="site-header">
+            <div class="header-left">
+                <a
+                    href="#top"
+                    class="header-avatar-link"
+                    aria-label="Back to top"
+                >
+                    <img
+                        class="header-avatar"
+                        src="https://github.com/leonlatsch.png"
+                        alt="Leon Latsch profile picture"
+                        width="40"
+                        height="40"
+                        loading="eager"
+                    />
+                </a>
+                <nav>
+                    <a href="#about" data-i18n="common.nav.about">About</a>
+                    <a href="#work" data-i18n="common.nav.work">Work</a>
+                    <a href="#contact" data-i18n="common.nav.contact"
+                        >Contact</a
+                    >
+                </nav>
+            </div>
+            <div class="header-center" aria-hidden="true">
+                <span class="terminal-pill"
+                    >status: online<span class="cursor"></span
+                ></span>
+            </div>
+            <div class="lang-switcher" aria-label="Language switcher">
+                <button type="button" data-lang="en">EN</button>
+                <button type="button" data-lang="de">DE</button>
+            </div>
+        </header>
+
+        <main id="top">
+            <section class="hero reveal-frame">
+                <p class="kicker" data-i18n="home.kicker">
+                    OpenSource Software and Hardware with Passion
+                </p>
+                <div class="hero-layout">
+                    <div class="hero-main">
+                        <h1>
+                            <span class="hero-name" data-i18n="home.hero.name"
+                                >Leon Latsch</span
+                            >
+                            <span data-i18n="home.hero.role"
+                                >Software Developer from Hamburg.</span
+                            >
+                        </h1>
+                        <p class="lead" data-i18n="home.hero.intro">
+                            Hi! My name is up there and I'm a Software Developer
+                            living in Hamburg. Here you can find a summary of my
+                            private projects.
+                        </p>
+                        <div class="hero-actions">
+                            <a
+                                class="btn btn-primary"
+                                href="#work"
+                                data-i18n="home.hero.ctaProjects"
+                                >See projects</a
+                            >
+                            <a
+                                class="btn btn-secondary"
+                                href="mailto:hello@leonlatsch.dev"
+                                data-i18n="home.hero.ctaContact"
+                                >Get in touch</a
+                            >
+                        </div>
+                    </div>
+                    <aside class="hero-side">
+                        <img
+                            class="profile-pic"
+                            src="https://github.com/leonlatsch.png"
+                            alt="Leon Latsch profile picture"
+                            width="180"
+                            height="180"
+                            loading="eager"
+                        />
+                        <p
+                            class="hero-side-note"
+                            data-i18n="home.hero.sideNote"
+                        >
+                            Open source, self-hosting, smart home hardware.
+                        </p>
+                    </aside>
+                </div>
+            </section>
+
+            <section id="about" class="section">
+                <div class="section-head">
+                    <p class="eyebrow" data-i18n="home.about.comment">
+                        about me
+                    </p>
+                    <h2 data-i18n="home.about.headline">
+                        Mobile First, Built End to End
+                    </h2>
+                </div>
+                <p class="about-text" data-i18n="home.about.text">
+                    I spend most of my time building native mobile apps that
+                    feel fast, clean, and reliable. Around that core, I build
+                    open-source self-hosting projects for practical everyday
+                    use. And when software needs a physical counterpart, I dive
+                    into hardware to connect everything end to end.
+                </p>
+            </section>
+
+            <section id="work" class="section">
+                <div class="section-head">
+                    <p class="eyebrow" data-i18n="home.work.comment">
+                        projects
+                    </p>
+                </div>
+                <div class="section-head">
+                    <h2 class="group-heading" data-i18n="home.work.appsTitle">
+                        Apps
+                    </h2>
+                </div>
+                <div class="big-projects">
+                    <article class="card">
+                        <h3 data-i18n="home.projects.photok.title">
+                            Photok: A safe place for your photos
+                        </h3>
+                        <p data-i18n="home.projects.photok.description">
+                            Photok is a completly free photo safe.
+                        </p>
+                        <div class="project-links">
+                            <a
+                                href="https://github.com/leonlatsch/photok"
+                                target="_blank"
+                                rel="noreferrer"
+                                data-i18n="home.projects.github"
+                                >GitHub</a
+                            >
+                            <a
+                                href="https://play.google.com/store/apps/details?id=dev.leonlatsch.photok&utm_source=website"
+                                target="_blank"
+                                rel="noreferrer"
+                                data-i18n="home.projects.downloadGooglePlay"
+                                >Google Play</a
+                            >
+                            <a
+                                href="https://f-droid.org/packages/dev.leonlatsch.photok"
+                                target="_blank"
+                                rel="noreferrer"
+                                data-i18n="home.projects.downloadFdroid"
+                                >F-Droid</a
+                            >
+                            <button
+                                type="button"
+                                class="btn-link"
+                                data-open-project="photok"
+                                data-i18n="home.projects.details"
+                            >
+                                Details
+                            </button>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <h3 data-i18n="home.projects.kolibriSuite.title">
+                            Kolibri Suite (App + Server)
+                        </h3>
+                        <p data-i18n="home.projects.kolibriSuite.description">
+                            Kolibri combines the private Android messenger and
+                            its self-hosted server backend.
+                        </p>
+                        <div class="project-links">
+                            <a
+                                href="https://github.com/leonlatsch/kolibri"
+                                target="_blank"
+                                rel="noreferrer"
+                                data-i18n="home.projects.githubApp"
+                                >GitHub App</a
+                            >
+                            <a
+                                href="https://github.com/leonlatsch/kolibri-server"
+                                target="_blank"
+                                rel="noreferrer"
+                                data-i18n="home.projects.githubServer"
+                                >GitHub Server</a
+                            >
+                            <a
+                                href="https://kolibri.leonlatsch.dev"
+                                target="_blank"
+                                rel="noreferrer"
+                                data-i18n="home.projects.website"
+                                >Website</a
+                            >
+                            <a
+                                href="https://github.com/leonlatsch/kolibri/releases/latest"
+                                target="_blank"
+                                rel="noreferrer"
+                                data-i18n="home.projects.downloadApp"
+                                >App Download</a
+                            >
+                            <a
+                                href="https://github.com/leonlatsch/kolibri-server/releases/latest"
+                                target="_blank"
+                                rel="noreferrer"
+                                data-i18n="home.projects.downloadServer"
+                                >Server Download</a
+                            >
+                            <button
+                                type="button"
+                                class="btn-link"
+                                data-open-project="kolibriSuite"
+                                data-i18n="home.projects.details"
+                            >
+                                Details
+                            </button>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section class="section">
+                <div class="section-head">
+                    <h2
+                        class="group-heading"
+                        data-i18n="home.work.hardwareTitle"
+                    >
+                        Hardware
+                    </h2>
+                </div>
+                <div class="big-projects">
+                    <article class="card">
+                        <h3 data-i18n="home.projects.esp32.title">
+                            ESP32 Intercom Extension
+                        </h3>
+                        <p data-i18n="home.projects.esp32.description">
+                            A ESP32 based PCB designed to control a Siedle
+                            HT611-01 intercom system.
+                        </p>
+                        <div class="project-links">
+                            <a
+                                href="https://github.com/leonlatsch/HT611-01_ESP32"
+                                target="_blank"
+                                rel="noreferrer"
+                                data-i18n="home.projects.github"
+                                >GitHub</a
+                            >
+                            <button
+                                type="button"
+                                class="btn-link"
+                                data-open-project="esp32"
+                                data-i18n="home.projects.details"
+                            >
+                                Details
+                            </button>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section class="section">
+                <div class="section-head">
+                    <h2
+                        class="group-heading"
+                        data-i18n="home.work.smartHomeTitle"
+                    >
+                        Smart Home &amp; Self Hosting
+                    </h2>
+                </div>
+                <div class="big-projects">
+                    <article class="card">
+                        <h3 data-i18n="home.projects.pc2mqtt.title">pc2mqtt</h3>
+                        <p data-i18n="home.projects.pc2mqtt.description">
+                            Control your PC or homeserver with MQTT (e.g. Home
+                            Assistant). Exposes power sensor, shutdown, and
+                            reboot.
+                        </p>
+                        <div class="project-links">
+                            <a
+                                href="https://github.com/leonlatsch/pc2mqtt"
+                                target="_blank"
+                                rel="noreferrer"
+                                data-i18n="home.projects.github"
+                                >GitHub</a
+                            >
+                            <button
+                                type="button"
+                                class="btn-link"
+                                data-open-project="pc2mqtt"
+                                data-i18n="home.projects.details"
+                            >
+                                Details
+                            </button>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <h3 data-i18n="home.projects.godaddy.title">
+                            GoDaddy DynDNS
+                        </h3>
+                        <p data-i18n="home.projects.godaddy.description">
+                            Python based GoDaddy DynDNS script using only the
+                            GoDaddy API.
+                        </p>
+                        <div class="project-links">
+                            <a
+                                href="https://github.com/leonlatsch/godaddy-dyndns"
+                                target="_blank"
+                                rel="noreferrer"
+                                data-i18n="home.projects.github"
+                                >GitHub</a
+                            >
+                            <button
+                                type="button"
+                                class="btn-link"
+                                data-open-project="godaddy"
+                                data-i18n="home.projects.details"
+                            >
+                                Details
+                            </button>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <h3 data-i18n="home.projects.goResolve.title">
+                            go-resolve
+                        </h3>
+                        <p data-i18n="home.projects.goResolve.description">
+                            DynDNS without DynDNS. A rewrite of godaddy-dyndns
+                            in Go.
+                        </p>
+                        <div class="project-links">
+                            <a
+                                href="https://github.com/leonlatsch/go-resolve"
+                                target="_blank"
+                                rel="noreferrer"
+                                data-i18n="home.projects.github"
+                                >GitHub</a
+                            >
+                            <button
+                                type="button"
+                                class="btn-link"
+                                data-open-project="goResolve"
+                                data-i18n="home.projects.details"
+                            >
+                                Details
+                            </button>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section class="section">
+                <div class="section-head">
+                    <h2
+                        class="group-heading"
+                        data-i18n="home.work.learningTitle"
+                    >
+                        Learning
+                    </h2>
+                </div>
+                <div class="big-projects">
+                    <article class="card">
+                        <h3 data-i18n="home.projects.scrypt.title">SCrypt</h3>
+                        <p data-i18n="home.projects.scrypt.description">
+                            SCrypt is a JavaFX Desktop Application to encrypt
+                            and decrypt files with AES-256.
+                        </p>
+                        <div class="project-links">
+                            <a
+                                href="https://github.com/leonlatsch/scrypt"
+                                target="_blank"
+                                rel="noreferrer"
+                                data-i18n="home.projects.github"
+                                >GitHub</a
+                            >
+                            <a
+                                href="https://github.com/leonlatsch/scrypt/releases/latest"
+                                target="_blank"
+                                rel="noreferrer"
+                                data-i18n="home.projects.download"
+                                >Download</a
+                            >
+                            <button
+                                type="button"
+                                class="btn-link"
+                                data-open-project="scrypt"
+                                data-i18n="home.projects.details"
+                            >
+                                Details
+                            </button>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <h3 data-i18n="home.projects.scryptLite.title">
+                            SCrypt lite
+                        </h3>
+                        <p data-i18n="home.projects.scryptLite.description">
+                            SCrypt lite is the terminal equivalent to SCrypt.
+                        </p>
+                        <div class="project-links">
+                            <a
+                                href="https://github.com/leonlatsch/scrypt-lite"
+                                target="_blank"
+                                rel="noreferrer"
+                                data-i18n="home.projects.github"
+                                >GitHub</a
+                            >
+                            <a
+                                href="https://github.com/leonlatsch/scrypt-lite/releases/latest"
+                                target="_blank"
+                                rel="noreferrer"
+                                data-i18n="home.projects.download"
+                                >Download</a
+                            >
+                            <button
+                                type="button"
+                                class="btn-link"
+                                data-open-project="scryptLite"
+                                data-i18n="home.projects.details"
+                            >
+                                Details
+                            </button>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section id="contact" class="section">
+                <div class="section-head">
+                    <p class="eyebrow" data-i18n="home.contact.comment">
+                        contact
+                    </p>
+                    <h2 data-i18n="home.contact.headline">
+                        Let’s build something useful.
+                    </h2>
+                </div>
+                <div class="contact">
+                    <a class="mail-link" href="mailto:hello@leonlatsch.dev">
+                        hello@leonlatsch.dev
+                    </a>
+                    <p class="contact-note" data-i18n="home.contact.note">
+                        The best way to reach me is email. For code and
+                        releases, use GitHub.
+                    </p>
+                    <div class="social-links">
+                        <a
+                            href="https://www.reddit.com/u/leonlatsch"
+                            target="_blank"
+                            rel="noreferrer"
+                            data-i18n="common.social.reddit"
+                            >Reddit</a
+                        >
+                        <a
+                            href="https://twitch.tv/leonlatsch"
+                            target="_blank"
+                            rel="noreferrer"
+                            data-i18n="common.social.twitch"
+                            >Twitch</a
+                        >
+                        <a
+                            href="https://www.youtube.com/channel/UCuHlotm527Csanl_EoevnqQ"
+                            target="_blank"
+                            rel="noreferrer"
+                            data-i18n="common.social.youtube"
+                            >YouTube</a
+                        >
+                        <a
+                            href="https://github.com/leonlatsch"
+                            target="_blank"
+                            rel="noreferrer"
+                            data-i18n="common.social.github"
+                            >GitHub</a
+                        >
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="site-footer">
+            <div class="site-footer-inner">
+                <div class="site-footer-left" aria-hidden="true"></div>
+                <p class="site-footer-copy">Copyright 2026 Leon Latsch</p>
+                <p class="site-footer-links">
+                    <a href="./imprint.html" data-i18n="common.legal.imprint"
+                        >Imprint</a
+                    >
+                    <span>&bull;</span>
+                    <a
+                        href="./privacy-policy.html"
+                        data-i18n="common.legal.privacy"
+                        >Privacy Policy</a
+                    >
+                </p>
+            </div>
+        </footer>
+
+        <dialog id="project-modal" class="project-modal">
+            <article class="project-modal-card">
+                <div class="project-modal-head">
+                    <p class="eyebrow" data-i18n="home.projects.modalEyebrow">
+                        Project details
+                    </p>
+                    <button
+                        type="button"
+                        id="project-modal-close"
+                        class="btn-link"
+                        data-i18n="home.projects.close"
+                    >
+                        Close
+                    </button>
+                </div>
+                <h3 id="project-modal-title"></h3>
+                <p id="project-modal-body"></p>
+                <div id="project-modal-links" class="project-links"></div>
+            </article>
+        </dialog>
+
+        <script src="./script.js"></script>
+        <script src="https://storage.ko-fi.com/cdn/scripts/overlay-widget.js"></script>
+        <script>
+            kofiWidgetOverlay.draw("leonlatsch", {
+                type: "floating-chat",
+                "floating-chat.donateButton.text": "Support Me",
+                "floating-chat.donateButton.background-color": "#323842",
+                "floating-chat.donateButton.text-color": "#fff",
+            });
+        </script>
+    </body>
+</html>

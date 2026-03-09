@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "home": {
+      "title": "Leon Latsch",
+      "description": "OpenSource Software and Hardware with Passion."
+    },
+    "imprint": {
+      "title": "Leon Latsch | Imprint",
+      "description": "Imprint of leonlatsch.dev"
+    },
+    "privacy": {
+      "title": "Leon Latsch | Privacy Policy",
+      "description": "Privacy policy of leonlatsch.dev"
+    }
+  },
+  "common": {
+    "nav": {
+      "work": "Work",
+      "about": "About",
+      "contact": "Contact"
+    },
+    "social": {
+      "reddit": "Reddit",
+      "twitch": "Twitch",
+      "youtube": "YouTube",
+      "github": "GitHub"
+    },
+    "legal": {
+      "imprint": "Imprint",
+      "privacy": "Privacy Policy"
+    }
+  },
+  "home": {
+    "kicker": "OpenSource Software and Hardware with Passion",
+    "hero": {
+      "name": "Leon Latsch",
+      "role": "Software Developer from Hamburg.",
+      "intro": "Hi! My name is up there and I'm a Software Developer living in Hamburg. Here you can find a summary of my private projects.",
+      "sideNote": "Open source, self-hosting, smart home hardware.",
+      "ctaProjects": "See projects",
+      "ctaContact": "Get in touch"
+    },
+    "socials": {
+      "eyebrow": "Socials"
+    },
+    "work": {
+      "comment": "projects",
+      "headline": "Projects",
+      "appsTitle": "Apps",
+      "hardwareTitle": "Hardware",
+      "smartHomeTitle": "Smart Home & Self Hosting",
+      "learningTitle": "Learning"
+    },
+    "projects": {
+      "esp32": {
+        "title": "ESP32 Intercom Extension",
+        "description": "A ESP32 based PCB designed to control a Siedle HT611-01 intercom system. It allows features like remote door opening, doorbell notification, and muting."
+      },
+      "photok": {
+        "title": "Photok: A safe place for your photos",
+        "description": "Photok is a completly free photo safe. It stores your photos encrypted on your device and secures them with a password."
+      },
+      "kolibriSuite": {
+        "title": "Kolibri Suite (App + Server)",
+        "description": "Kolibri combines the private Android messenger and its self-hosted server backend."
+      },
+      "godaddy": {
+        "title": "GoDaddy DynDNS",
+        "description": "Python based GoDaddy DynDNS script using only the GoDaddy API."
+      },
+      "scrypt": {
+        "title": "SCrypt",
+        "description": "SCrypt is a JavaFX Desktop Application to encrypt and decrypt files with AES-256."
+      },
+      "scryptLite": {
+        "title": "SCrypt lite",
+        "description": "SCrypt lite is the terminal equivalent to SCrypt. It encrypts and decrypts files with AES-256."
+      },
+      "pc2mqtt": {
+        "title": "pc2mqtt",
+        "description": "Control your PC or homeserver via MQTT (e.g. Home Assistant). Exposes power sensor, shutdown button, and reboot button."
+      },
+      "goResolve": {
+        "title": "go-resolve",
+        "description": "DynDNS without DynDNS. A rewrite of godaddy-dyndns in Go."
+      },
+      "details": "Details",
+      "modalEyebrow": "Project details",
+      "close": "Close",
+      "github": "GitHub",
+      "githubApp": "GitHub App",
+      "githubServer": "GitHub Server",
+      "website": "Website",
+      "download": "Download",
+      "downloadApp": "App Download",
+      "downloadServer": "Server Download",
+      "downloadGooglePlay": "Google Play",
+      "downloadFdroid": "F-Droid"
+    },
+    "projectDetails": {
+      "esp32": {
+        "title": "ESP32 Intercom Extension",
+        "text": "An ESP32-based PCB extension for a Siedle HT611-01 intercom system. It supports remote door opening, doorbell notifications, and muting, plus setup documentation for assembly, flashing, and installation."
+      },
+      "photok": {
+        "title": "Photok: A safe place for your photos",
+        "text": "Photok is a privacy-first photo vault for Android. Your photos stay encrypted on-device and protected by your password. You can install it via Google Play or F-Droid."
+      },
+      "kolibriSuite": {
+        "title": "Kolibri Suite (App + Server)",
+        "text": "Kolibri consists of a private Android messenger and its self-hosted server backend. The app and server are fully open source and designed for privacy-focused communication."
+      },
+      "godaddy": {
+        "title": "GoDaddy DynDNS",
+        "text": "A lightweight Python DynDNS updater for GoDaddy DNS records, using only the official GoDaddy API."
+      },
+      "scrypt": {
+        "title": "SCrypt",
+        "text": "A JavaFX desktop application for AES-256 file encryption and decryption, distributed with releases for easy local usage."
+      },
+      "scryptLite": {
+        "title": "SCrypt lite",
+        "text": "The terminal version of SCrypt for AES-256 file encryption and decryption, focused on scripting and automation workflows."
+      },
+      "pc2mqtt": {
+        "title": "pc2mqtt",
+        "text": "pc2mqtt runs on your PC or homeserver and exposes state/actions over MQTT for automation systems like Home Assistant. It provides a power sensor plus shutdown and reboot buttons. Setup differs by OS: Linux uses a binary + systemd service, Windows uses WinSW as a service wrapper."
+      },
+      "goResolve": {
+        "title": "go-resolve",
+        "text": "DynDNS without DynDNS: a Go rewrite of godaddy-dyndns."
+      }
+    },
+    "about": {
+      "comment": "about me",
+      "eyebrow": "About",
+      "headline": "Mobile First, Built End to End",
+      "text": "I spend most of my time building native mobile apps that feel fast, clean, and reliable. Around that core, I build open-source self-hosting projects for practical everyday use. And when software needs a physical counterpart, I dive into hardware to connect everything end to end."
+    },
+    "contact": {
+      "comment": "contact",
+      "eyebrow": "Contact",
+      "headline": "Let’s build something useful.",
+      "note": "The best way to reach me is email. For code and releases, use GitHub.",
+      "emailAction": "Send email",
+      "githubAction": "Open GitHub"
+    }
+  },
+  "imprint": {
+    "eyebrow": "Legal",
+    "title": "Imprint",
+    "title2": "Information provided according to Sec. 5 German Telemedia Act (TMG)",
+    "contactTitle": "Contact",
+    "responsibleTitle": "Responsible for the content according to Section 55 Paragraph 2 RStV",
+    "liabilityContentTitle": "Liability for content",
+    "liabilityContent1": "As a service provider, we are responsible for our own content on these pages in accordance with Section 7 (1) of the German Telemedia Act. According to Sections 8 to 10 TMG, we as a service provider are not obliged to monitor transmitted or stored third-party information or to investigate circumstances that indicate illegal activity.",
+    "liabilityContent2": "Obligations to remove or block the use of information according to general laws remain unaffected. However, liability in this regard is only possible from the time we become aware of a specific legal violation. As soon as we become aware of such violations, we will remove this content immediately.",
+    "liabilityLinksTitle": "Liability for links",
+    "liabilityLinks1": "Our offer contains links to external websites of third parties, the content of which we have no influence on. For this reason, we cannot accept any liability for this external content. The respective provider or operator is always responsible for the content of the linked pages. The linked pages were checked for possible legal violations at the time the link was created. No illegal content was discernible at the time the link was created.",
+    "liabilityLinks2": "A permanent control of the content of the linked pages is not reasonable without concrete evidence of an infringement. As soon as we become aware of legal violations, we will remove such links immediately.",
+    "copyrightTitle": "Copyright",
+    "copyright1": "The content and works on these pages created by the site operator are subject to German copyright law. Duplication, editing, distribution and any kind of use outside the limits of copyright law require the written consent of the respective author or creator. Downloads and copies of this page are only permitted for private, non-commercial use.",
+    "copyright2": "As far as the content on this page was not created by the operator, the copyrights of third parties are respected. In particular contents of third parties are marked as such. Should you nevertheless become aware of a copyright infringement, please let us know. As soon as we become aware of legal violations, we will remove such content immediately.",
+    "phoneLabel": "Phone:",
+    "emailLabel": "Email:",
+    "addressHtml": "Leon Latsch<br />c/o Werneburg Internet Marketing und Publikations-Service<br />Philipp-Kuehner-Strasse 2<br />99817 Eisenach",
+    "responsibleAddressHtml": "Leon Latsch<br />c/o Werneburg Internet Marketing und Publikations-Service<br />Philipp-Kuehner-Strasse 2<br />99817 Eisenach",
+    "source": "Source:"
+  }
+}

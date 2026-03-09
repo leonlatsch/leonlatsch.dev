@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "home": {
+      "title": "Leon Latsch",
+      "description": "OpenSource Software und Hardware mit Leidenschaft."
+    },
+    "imprint": {
+      "title": "Leon Latsch | Impressum",
+      "description": "Impressum von leonlatsch.dev"
+    },
+    "privacy": {
+      "title": "Leon Latsch | Datenschutzerklärung",
+      "description": "Datenschutzerklärung von leonlatsch.dev"
+    }
+  },
+  "common": {
+    "nav": {
+      "work": "Projekte",
+      "about": "Über mich",
+      "contact": "Kontakt"
+    },
+    "social": {
+      "reddit": "Reddit",
+      "twitch": "Twitch",
+      "youtube": "YouTube",
+      "github": "GitHub"
+    },
+    "legal": {
+      "imprint": "Impressum",
+      "privacy": "Datenschutzerklärung"
+    }
+  },
+  "home": {
+    "kicker": "OpenSource Software und Hardware mit Leidenschaft",
+    "hero": {
+      "name": "Leon Latsch",
+      "role": "Software Entwickler aus Hamburg.",
+      "intro": "Hi! Mein Name steht da oben und ich bin Software Entwickler und lebe in Hamburg. Hier findest du eine Sammlung meiner privaten Projekte.",
+      "sideNote": "Open Source, Self-Hosting, Smart-Home-Hardware.",
+      "ctaProjects": "Projekte ansehen",
+      "ctaContact": "Kontakt"
+    },
+    "socials": {
+      "eyebrow": "Socials"
+    },
+    "work": {
+      "comment": "projekte",
+      "headline": "Projekte",
+      "appsTitle": "Apps",
+      "hardwareTitle": "Hardware",
+      "smartHomeTitle": "Smart Home & Self Hosting",
+      "learningTitle": "Lernen"
+    },
+    "projects": {
+      "esp32": {
+        "title": "ESP32 Gegensprechanlage Erweiterung",
+        "description": "Eine ESP32-basierte Platine zur Steuerung einer Siedle HT611-01 Gegensprechanlage. Sie ermöglicht Funktionen wie Fernöffnung der Tür, Türklingelbenachrichtigung und Stummschaltung."
+      },
+      "photok": {
+        "title": "Photok: Ein sicherer Ort für deine Fotos",
+        "description": "Photok ist ein komplett freier Foto-Safe. Er speichert deine Fotos verschlüsselt auf deinem Gerät und sichert sie mit einem Passwort."
+      },
+      "kolibriSuite": {
+        "title": "Kolibri Suite (App + Server)",
+        "description": "Kolibri kombiniert den privaten Android Messenger mit dem selbst gehosteten Server-Backend."
+      },
+      "godaddy": {
+        "title": "GoDaddy DynDNS",
+        "description": "Ein Python basiertes GoDaddy DynDNS Script. Es verwendet ausschließlich die GoDaddy API."
+      },
+      "scrypt": {
+        "title": "SCrypt",
+        "description": "SCrypt ist eine JavaFX Anwendung zum verschlüsseln und entschlüsseln von Dateien mit AES-256."
+      },
+      "scryptLite": {
+        "title": "SCrypt lite",
+        "description": "SCrypt lite ist das Terminal Äquivalent zu SCrypt. Es verschlüsselt und entschlüsselt Dateien mit AES-256."
+      },
+      "pc2mqtt": {
+        "title": "pc2mqtt",
+        "description": "Steuere PC oder Homeserver über MQTT (z. B. Home Assistant). Enthalten sind Power-Sensor, Shutdown-Button und Reboot-Button."
+      },
+      "goResolve": {
+        "title": "go-resolve",
+        "description": "DynDNS ohne DynDNS. Ein Rewrite von godaddy-dyndns in Go."
+      },
+      "details": "Details",
+      "modalEyebrow": "Projektdetails",
+      "close": "Schließen",
+      "github": "GitHub",
+      "githubApp": "GitHub App",
+      "githubServer": "GitHub Server",
+      "website": "Website",
+      "download": "Download",
+      "downloadApp": "App Download",
+      "downloadServer": "Server Download",
+      "downloadGooglePlay": "Google Play",
+      "downloadFdroid": "F-Droid"
+    },
+    "projectDetails": {
+      "esp32": {
+        "title": "ESP32 Gegensprechanlage Erweiterung",
+        "text": "Eine ESP32-basierte Platinen-Erweiterung für die Siedle HT611-01 Gegensprechanlage. Sie bietet Fernöffnung der Tür, Klingelbenachrichtigungen und Stummschaltung sowie Doku für Aufbau, Flashen und Installation."
+      },
+      "photok": {
+        "title": "Photok: Ein sicherer Ort für deine Fotos",
+        "text": "Photok ist ein datenschutzorientierter Foto-Safe für Android. Deine Fotos bleiben verschlüsselt auf dem Gerät und sind mit deinem Passwort geschützt. Verfügbar bei Google Play und F-Droid."
+      },
+      "kolibriSuite": {
+        "title": "Kolibri Suite (App + Server)",
+        "text": "Kolibri besteht aus einem privaten Android Messenger und dem selbst gehosteten Server-Backend. App und Server sind komplett Open Source und für private Kommunikation ausgelegt."
+      },
+      "godaddy": {
+        "title": "GoDaddy DynDNS",
+        "text": "Ein schlanker Python DynDNS-Updater für GoDaddy DNS-Records, der ausschließlich die offizielle GoDaddy API verwendet."
+      },
+      "scrypt": {
+        "title": "SCrypt",
+        "text": "Eine JavaFX Desktop-Anwendung zum Ver- und Entschlüsseln von Dateien mit AES-256, inkl. Release-Downloads für einfache lokale Nutzung."
+      },
+      "scryptLite": {
+        "title": "SCrypt lite",
+        "text": "Die Terminal-Version von SCrypt für AES-256 Dateiverschlüsselung und -entschlüsselung, ideal für Skripting und Automatisierung."
+      },
+      "pc2mqtt": {
+        "title": "pc2mqtt",
+        "text": "pc2mqtt läuft auf PC oder Homeserver und stellt Status/Aktionen über MQTT für Automationssysteme wie Home Assistant bereit. Es bietet einen Power-Sensor sowie Shutdown- und Reboot-Buttons. Das Setup ist je nach OS unterschiedlich: unter Linux Binary + systemd-Service, unter Windows WinSW als Service-Wrapper."
+      },
+      "goResolve": {
+        "title": "go-resolve",
+        "text": "DynDNS ohne DynDNS: ein Go-Rewrite von godaddy-dyndns."
+      }
+    },
+    "about": {
+      "comment": "über mich",
+      "eyebrow": "Über mich",
+      "headline": "Mobile First, Ende-zu-Ende gebaut",
+      "text": "Ich verbringe den größten Teil meiner Zeit mit nativen mobilen Apps, die schnell, klar und zuverlässig sind. Rund um diesen Fokus entwickle ich Open-Source-Self-Hosting-Projekte für den praktischen Alltag. Und wenn Software ein physisches Gegenstück braucht, gehe ich in Hardware, um alles Ende-zu-Ende zu verbinden."
+    },
+    "contact": {
+      "comment": "kontakt",
+      "eyebrow": "Kontakt",
+      "headline": "Lass uns etwas Nützliches bauen.",
+      "note": "Am besten erreichst du mich per E-Mail. Für Code und Releases nutze GitHub.",
+      "emailAction": "E-Mail senden",
+      "githubAction": "GitHub öffnen"
+    }
+  },
+  "imprint": {
+    "eyebrow": "Rechtliches",
+    "title": "Impressum",
+    "title2": "Angaben gemäß Section 5 TMG",
+    "contactTitle": "Kontakt",
+    "responsibleTitle": "Verantwortlich für den Inhalt nach Section 55 Absatz 2 RStV",
+    "liabilityContentTitle": "Haftung für Inhalte",
+    "liabilityContent1": "Als Diensteanbieter sind wir gemäß Section 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach Sections 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen.",
+    "liabilityContent2": "Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.",
+    "liabilityLinksTitle": "Haftung für Links",
+    "liabilityLinks1": "Unser Angebot enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar.",
+    "liabilityLinks2": "Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.",
+    "copyrightTitle": "Urheberrecht",
+    "copyright1": "Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet.",
+    "copyright2": "Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.",
+    "phoneLabel": "Telefon:",
+    "emailLabel": "E-Mail:",
+    "addressHtml": "Leon Latsch<br />c/o Werneburg Internet Marketing und Publikations-Service<br />Philipp-Kühner-Straße 2<br />99817 Eisenach",
+    "responsibleAddressHtml": "Leon Latsch<br />c/o Werneburg Internet Marketing und Publikations-Service<br />Philipp-Kühner-Straße 2<br />99817 Eisenach",
+    "source": "Quelle:"
+  }
+}
