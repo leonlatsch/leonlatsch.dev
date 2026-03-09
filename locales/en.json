@@ -49,7 +49,7 @@
       "appsTitle": "Apps",
       "hardwareTitle": "Hardware",
       "smartHomeTitle": "Smart Home & Self Hosting",
-      "learningTitle": "Learning"
+      "learningTitle": "Andere"
     },
     "projects": {
       "esp32": {
@@ -57,12 +57,12 @@
         "description": "A ESP32 based PCB designed to control a Siedle HT611-01 intercom system. It allows features like remote door opening, doorbell notification, and muting."
       },
       "photok": {
-        "title": "Photok: A safe place for your photos",
-        "description": "Photok is a completly free photo safe. It stores your photos encrypted on your device and secures them with a password."
+        "title": "Photok: Foto Tresor",
+        "description": "Photok is a open source photo safe app. All data is encrypted locally on the device which stores them securely."
       },
       "kolibriSuite": {
-        "title": "Kolibri Suite (App + Server)",
-        "description": "Kolibri combines the private Android messenger and its self-hosted server backend."
+        "title": "Kolibri Messenger (App + Server)",
+        "description": "Kolibri is a private Android messenger and its self-hosted server backend."
       },
       "godaddy": {
         "title": "GoDaddy DynDNS",
@@ -103,11 +103,11 @@
         "text": "An ESP32-based PCB extension for a Siedle HT611-01 intercom system. It supports remote door opening, doorbell notifications, and muting, plus setup documentation for assembly, flashing, and installation."
       },
       "photok": {
-        "title": "Photok: A safe place for your photos",
+        "title": "Photok: Foto Tresor",
         "text": "Photok is a privacy-first photo vault for Android. Your photos stay encrypted on-device and protected by your password. You can install it via Google Play or F-Droid."
       },
       "kolibriSuite": {
-        "title": "Kolibri Suite (App + Server)",
+        "title": "Kolibri Messenger (App + Server)",
         "text": "Kolibri consists of a private Android messenger and its self-hosted server backend. The app and server are fully open source and designed for privacy-focused communication."
       },
       "godaddy": {
@@ -134,8 +134,8 @@
     "about": {
       "comment": "about me",
       "eyebrow": "About",
-      "headline": "Mobile First, Built End to End",
-      "text": "I spend most of my time building native mobile apps that feel fast, clean, and reliable. Around that core, I build open-source self-hosting projects for practical everyday use. And when software needs a physical counterpart, I dive into hardware to connect everything end to end."
+      "headline": "Mobile Apps and Smart Home. Open source first.",
+      "text": "I build native mobile apps, self-hosted smart home tools, and the occasional piece of custom hardware. I’m also interested in open source and well-designed software."
     },
     "contact": {
       "comment": "contact",

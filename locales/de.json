@@ -49,20 +49,20 @@
       "appsTitle": "Apps",
       "hardwareTitle": "Hardware",
       "smartHomeTitle": "Smart Home & Self Hosting",
-      "learningTitle": "Lernen"
+      "learningTitle": "Other"
     },
     "projects": {
       "esp32": {
-        "title": "ESP32 Gegensprechanlage Erweiterung",
+        "title": "ESP32 Erweiterung für Gegensprechanlage",
         "description": "Eine ESP32-basierte Platine zur Steuerung einer Siedle HT611-01 Gegensprechanlage. Sie ermöglicht Funktionen wie Fernöffnung der Tür, Türklingelbenachrichtigung und Stummschaltung."
       },
       "photok": {
-        "title": "Photok: Ein sicherer Ort für deine Fotos",
-        "description": "Photok ist ein komplett freier Foto-Safe. Er speichert deine Fotos verschlüsselt auf deinem Gerät und sichert sie mit einem Passwort."
+        "title": "Photok: Photo Vault",
+        "description": "Photok ist eine open source Foto Tresor App. Alle Daten werden lokal auf dem Gerär verschlüsselt und dadurch sicher aufbewahrt."
       },
       "kolibriSuite": {
-        "title": "Kolibri Suite (App + Server)",
-        "description": "Kolibri kombiniert den privaten Android Messenger mit dem selbst gehosteten Server-Backend."
+        "title": "Kolibri Messenger (App + Server)",
+        "description": "Kolibri ist ein privater Android Messenger mit dem selbst gehosteten Server-Backend."
       },
       "godaddy": {
         "title": "GoDaddy DynDNS",
@@ -99,15 +99,15 @@
     },
     "projectDetails": {
       "esp32": {
-        "title": "ESP32 Gegensprechanlage Erweiterung",
+        "title": "ESP32 Erweiterung für Gegensprechanlage",
         "text": "Eine ESP32-basierte Platinen-Erweiterung für die Siedle HT611-01 Gegensprechanlage. Sie bietet Fernöffnung der Tür, Klingelbenachrichtigungen und Stummschaltung sowie Doku für Aufbau, Flashen und Installation."
       },
       "photok": {
-        "title": "Photok: Ein sicherer Ort für deine Fotos",
+        "title": "Photok: Photo Vault",
         "text": "Photok ist ein datenschutzorientierter Foto-Safe für Android. Deine Fotos bleiben verschlüsselt auf dem Gerät und sind mit deinem Passwort geschützt. Verfügbar bei Google Play und F-Droid."
       },
       "kolibriSuite": {
-        "title": "Kolibri Suite (App + Server)",
+        "title": "Kolibri Messenger (App + Server)",
         "text": "Kolibri besteht aus einem privaten Android Messenger und dem selbst gehosteten Server-Backend. App und Server sind komplett Open Source und für private Kommunikation ausgelegt."
       },
       "godaddy": {
@@ -134,8 +134,8 @@
     "about": {
       "comment": "über mich",
       "eyebrow": "Über mich",
-      "headline": "Mobile First, Ende-zu-Ende gebaut",
-      "text": "Ich verbringe den größten Teil meiner Zeit mit nativen mobilen Apps, die schnell, klar und zuverlässig sind. Rund um diesen Fokus entwickle ich Open-Source-Self-Hosting-Projekte für den praktischen Alltag. Und wenn Software ein physisches Gegenstück braucht, gehe ich in Hardware, um alles Ende-zu-Ende zu verbinden."
+      "headline": "Mobile Apps und Smart Home. Open Source first.",
+      "text": "Ich entwickle native Mobile-Apps, selbst gehostete Smart-Home-Tools und ab und zu eigene Hardware. Außerdem beschäftige ich mich gerne mit Open-Source-Projekten und sauber entwickelter Software."
     },
     "contact": {
       "comment": "kontakt",
@@ -158,7 +158,7 @@
     "liabilityLinksTitle": "Haftung für Links",
     "liabilityLinks1": "Unser Angebot enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar.",
     "liabilityLinks2": "Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.",
-    "copyrightTitle": "Urheberrecht",
+    "copyrightTitle": "Copyright",
     "copyright1": "Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet.",
     "copyright2": "Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.",
     "phoneLabel": "Telefon:",
