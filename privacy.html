@@ -13,7 +13,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
-            href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&family=Space+Mono:wght@400;700&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600&display=swap"
             rel="stylesheet"
         />
         <link rel="stylesheet" href="./styles.css" />
@@ -23,51 +23,33 @@
         ></script>
     </head>
     <body data-page="privacy">
-        <div class="noise" aria-hidden="true"></div>
 
-        <header class="site-header">
-            <div class="header-left">
-                <a
-                    href="./index.html"
-                    class="header-avatar-link"
-                    aria-label="Go to home"
-                >
+        <div class="wrap">
+            <header class="top">
+                <a href="./index.html" class="brand" aria-label="Home">
                     <img
-                        class="header-avatar"
+                        class="brand-avatar"
                         src="https://github.com/leonlatsch.png"
-                        alt="Leon Latsch profile picture"
-                        width="40"
-                        height="40"
-                        loading="eager"
+                        alt=""
+                        width="28"
+                        height="28"
                     />
+                    <span>Leon Latsch</span>
                 </a>
-                <nav>
-                    <a href="./index.html#about" data-i18n="common.nav.about"
-                        >About</a
-                    >
-                    <a href="./index.html#work" data-i18n="common.nav.work"
-                        >Work</a
-                    >
-                    <a
-                        href="./index.html#contact"
-                        data-i18n="common.nav.contact"
-                        >Contact</a
-                    >
+                <nav class="nav">
+                    <a href="./index.html#about" data-i18n="common.nav.about">about</a>
+                    <a href="./index.html#work" data-i18n="common.nav.work">projects</a>
+                    <a href="./index.html#more" data-i18n="common.nav.more">more</a>
+                    <a href="./index.html#contact" data-i18n="common.nav.contact">connect</a>
                 </nav>
-            </div>
-            <div class="header-center" aria-hidden="true">
-                <span class="terminal-pill"
-                    >status: online<span class="cursor"></span
-                ></span>
-            </div>
-            <div class="lang-switcher" aria-label="Language switcher">
-                <button type="button" data-lang="en">EN</button>
-                <button type="button" data-lang="de">DE</button>
-            </div>
-        </header>
+                <div class="lang-switcher" aria-label="Language switcher">
+                    <button type="button" data-lang="en">EN</button>
+                    <button type="button" data-lang="de">DE</button>
+                </div>
+            </header>
 
         <main class="legal-page">
-            <section class="section legal-card">
+            <section class="legal-card">
                 <p class="eyebrow" data-i18n="privacy.eyebrow">Legal</p>
                 <h1 data-i18n="privacy.title">Privacy Policy</h1>
 
@@ -255,20 +237,13 @@
         </main>
 
         <footer class="site-footer">
-            <div class="site-footer-inner">
-                <div class="site-footer-left" aria-hidden="true"></div>
-                <p class="site-footer-copy">Copyright ® 2026 Leon Latsch</p>
-                <p class="site-footer-links">
-                    <a href="./imprint.html" data-i18n="common.legal.imprint"
-                        >Imprint</a
-                    >
-                    <span>&bull;</span>
-                    <a href="./privacy.html" data-i18n="common.legal.privacy"
-                        >Privacy Policy</a
-                    >
-                </p>
-            </div>
-        </footer>
+                <span>© 2026 Leon Latsch</span>
+                <span class="footer-links">
+                    <a href="./imprint.html" data-i18n="common.legal.imprint">Imprint</a>
+                    <a href="./privacy.html" data-i18n="common.legal.privacy">Privacy Policy</a>
+                </span>
+            </footer>
+        </div>
 
         <script src="./script.js"></script>
     </body>
