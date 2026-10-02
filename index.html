@@ -117,8 +117,8 @@
                             Things I <span class="accent">build</span>.
                         </h2>
                         <p class="lede" data-i18n="home.work.lede">
-                            Apps and hardware I designed, shipped and still
-                            maintain.
+                            Apps, hardware and self-hosted tools I designed
+                            and shipped.
                         </p>
                     </div>
 
@@ -203,6 +203,42 @@
                                 </a>
                             </div>
                         </article>
+
+                        <article class="card goresolve">
+                            <div class="media">
+                                <div class="terminal" role="img" aria-label="go-resolve log output">
+                                    <div class="terminal-bar"><span></span><span></span><span></span><em>docker logs go-resolve</em></div>
+<pre class="terminal-body"><span class="t">10:47:01 </span>Starting go-resolve 2.1.0
+<span class="t">10:47:02 </span>Running for hetznerCloud
+<span class="t">10:47:02 </span>Configured IP Providers: UPNP, External Rest Apis
+<span class="t">10:47:02 </span>Checking for new ip every 5m
+<span class="t">10:47:02 </span>Updating records for home.example.com
+<span class="t">10:47:02 </span>Updating records for nas.example.com
+<span class="t">10:47:02 </span>Updating records for cloud.example.com
+<span class="t">10:47:02 </span><span class="ok">Successfully updated all records.</span>
+<span class="t">10:47:02 </span>Caching 203.0.113.42
+<span class="terminal-cursor"></span></pre>
+                                </div>
+                            </div>
+                            <div class="body">
+                                <div class="meta-row">
+                                    <span class="category" data-i18n="home.more.categorySelfHosting">Self-Hosting</span>
+                                    <span>Go · Docker</span>
+                                </div>
+                                <h3>go-resolve<span class="tag" data-i18n="home.projects.goResolve.tag">DynDNS updater</span></h3>
+                                <p data-i18n="home.projects.goResolve.description">
+                                    DynDNS without DynDNS. Keeps your DNS records
+                                    pointed at your home IP via GoDaddy, Hetzner
+                                    or any update URL. Runs as a Docker container.
+                                </p>
+                            </div>
+                            <div class="card-foot">
+                                <a class="card-foot-row" href="https://github.com/leonlatsch/go-resolve" target="_blank" rel="noreferrer">
+                                    <span>github.com</span>
+                                    <span class="visit"><span data-i18n="home.projects.source">Source</span><span class="arrow">↗</span></span>
+                                </a>
+                            </div>
+                        </article>
                     </div>
                 </section>
 
@@ -219,28 +255,6 @@
                     </div>
 
                     <div class="timeline">
-                        <details class="row">
-                            <summary>
-                                <span class="yr"><span class="year">2024</span><span data-i18n="home.more.categorySelfHosting">Self-Hosting</span></span>
-                                <span class="co">go-resolve</span>
-                                <span class="desc" data-i18n="home.projects.goResolve.description">
-                                    DynDNS without DynDNS. A rewrite of
-                                    godaddy-dyndns in Go.
-                                </span>
-                                <span class="role">Go</span>
-                            </summary>
-                            <div class="drawer">
-                                <span class="drawer-label" data-i18n="home.more.drawerLabel">Details</span>
-                                <p data-i18n="home.projectDetails.goResolve.text">
-                                    DynDNS without DynDNS: a Go rewrite of
-                                    godaddy-dyndns.
-                                </p>
-                                <div class="drawer-links">
-                                    <a href="https://github.com/leonlatsch/go-resolve" target="_blank" rel="noreferrer"><span data-i18n="home.projects.source">Source</span> ↗</a>
-                                </div>
-                            </div>
-                        </details>
-
                         <details class="row">
                             <summary>
                                 <span class="yr"><span class="year">2019</span><span data-i18n="home.more.categorySelfHosting">Self-Hosting</span></span>

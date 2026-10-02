@@ -53,7 +53,7 @@
     "work": {
       "num": "02 / Projects",
       "headlineHtml": "Things I <span class=\"accent\">build</span>.",
-      "lede": "Apps and hardware I designed and shipped."
+      "lede": "Apps, hardware and self-hosted tools I designed and shipped."
     },
     "more": {
       "num": "03 / More",
@@ -84,7 +84,8 @@
         "description": "Control your PC or homeserver via MQTT (e.g. Home Assistant). Exposes power sensor, shutdown button, and reboot button."
       },
       "goResolve": {
-        "description": "DynDNS without DynDNS. A rewrite of godaddy-dyndns in Go."
+        "tag": "DynDNS updater",
+        "description": "DynDNS without DynDNS. Keeps your DNS records pointed at your home IP via GoDaddy, Hetzner or any update URL. Runs as a Docker container."
       },
       "godaddy": {
         "description": "Python based GoDaddy DynDNS script using only the GoDaddy API."
@@ -107,9 +108,6 @@
       "categoryHardware": "Hardware"
     },
     "projectDetails": {
-      "goResolve": {
-        "text": "DynDNS without DynDNS: a Go rewrite of godaddy-dyndns."
-      },
       "godaddy": {
         "text": "A lightweight Python DynDNS updater for GoDaddy DNS records, using only the official GoDaddy API."
       },
